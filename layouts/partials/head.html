@@ -9,5 +9,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
   <title>Book Hiker's Guide to Life</title>
 
-  <!-- replace in part 8 -->
-</head>
+  <!-- start of CSS -->
+{{ with resources.Get "sass/main.scss" }}
+        {{ $style := . | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" type="text/css">
+{{ end }}</head>
