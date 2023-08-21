@@ -2,15 +2,15 @@
   {
     "id": "CUBALIBRE",
     "name": "Cuba Libre",
-    "price": 6.9,
+    "price": 6.90,
     "image": "/uploads/cuba-libre.jpg",
     "description": "Fiction, Cuban history, thrill romance and rum: what more could you ask for!",
     "product_url": "/"
   },
   {
     "id": "THEROAD",
-    "name": "The road",
-    "price": 6.9,
+    "name": "The Road",
+    "price": 6.90,
     "image": "/uploads/the-road.jpg",
     "description": "A man, his son, dead wife and a world trying to eradicate them both! This book is deep, dark but profound. It explores the timeless threads that binds the animal kingdom: violence, hope, and survival. Yet, in one of Cormac McCarthy's darkest novel, one can see the humanity in it all.",
     "product_url": ""
